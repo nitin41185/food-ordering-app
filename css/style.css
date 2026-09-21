@@ -1,0 +1,48 @@
+body {
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background: #fff;
+  min-height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.food-card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.food-card:hover {
+  transform: translateY(-4px);
+}
+
+.food-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.category-list .list-group-item {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+.category-list .list-group-item:hover {
+  background: #fff3cd;
+}
+
+.top-bar button {
+  border-radius: 20px;
+}
